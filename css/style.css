@@ -1,9 +1,24 @@
+body {
+	background: #333;
+}
+
 .buttonDesign {
-	padding: 110px;
-	background: #555;
+	padding: 10px;
+	background: red;
 
 }
 
 #buttonDisplay {
 	width: 100%;
+}
+
+#gifDisplay {
+	width: 80%;
+	display: inline-block;
+	overflow: auto;
+}
+
+.clickableImage {
+	margin: 2px;
+	display: inline-block;
 }
